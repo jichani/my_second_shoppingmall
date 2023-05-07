@@ -1,0 +1,211 @@
+a {
+  text-decoration: none;
+}
+
+.btn-outline-success {
+  color: black;
+  background-color: white;
+  border-color: black;
+}
+
+.btn-outline-success:hover {
+  background-color: black;
+  color: white;
+  border-color: black;
+}
+
+.form-control:focus {
+  border-color: black;
+  box-shadow: none;
+}
+
+.nav_var {
+  padding: 0px;
+}
+
+.nav_logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  margin-left: 10px;
+  margin-right: 40px;
+}
+
+.nav_text {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+  margin-left: 20px;
+}
+
+.btn {
+  font-weight: 400;
+  font-size: 0.7rem;
+  --bs-btn-border-radius: none;
+  padding: 7px 30px;
+}
+
+.text01 {
+  font-size: calc(1.325rem + .9vw);
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+
+.text02 {
+  font-size: 0.8rem;
+  font-weight: 380;
+  letter-spacing: -1px;
+}
+
+
+.img_main {
+  width: 100%;
+}
+
+.padding_top0 {
+  padding-top: 0px !important;
+}
+
+.img_main01 {
+  margin-top: 2rem;
+}
+
+.img_card01 {
+  width: 100%;
+}
+
+.main_video {
+  background-color: #000;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.main_text01 {
+  font-weight: 650;
+  font-size: 1.2rem;
+}
+
+.main_text02 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.card {
+  --bs-card-border-width: none;
+}
+
+.brand {
+  color: #999;
+  font-size: 0.8rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  font-weight: 500;
+  margin-top: 6px;
+}
+
+.item_title {
+  color: #666;
+  line-height: 150%;
+  margin-top: 12px;
+  font-size: 0.5rem;
+  letter-spacing: 0.025em;
+  margin-bottom: 0px;
+}
+
+.item_price {
+  margin-top: 5px;
+  color: #000;
+  font-weight: 700;
+  font-size: 0.5rem;
+}
+
+.img_card02 {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.row>* {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.card_img {
+  position: relative;
+}
+
+.card_text {
+  position: absolute;
+  left: 26px;
+  bottom: 24px;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0;
+}
+
+.card_text01 {
+  color: #ffffff;
+}
+
+.card_text02 {
+  left: 12px;
+  bottom: 30px;
+  font-size: 0.9rem;
+}
+
+.card_text03 {
+  bottom: 42px;
+  color: #ffffff;
+}
+
+/* 푸터 */
+footer {
+  background-color: black;
+  color: white;
+}
+
+.first-line {
+  border-bottom: 1px solid #999;
+  padding-left: 0.5rem rem;
+  color: #999;
+  font-size: 0.8rem;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+}
+
+.second-line a {
+  color: #999;
+  font-size: 0.6rem;
+  font-weight: 900;
+
+  text-decoration: none;
+}
+
+/* 모바일에만 나타나게 하기 위해서 */
+.third-line {
+  display: none;
+  color: #999;
+  font-size: 0.5rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+/* 미디어 쿼리 */
+@media screen and (max-width:48rem) {
+  .first-line {
+    text-align: center;
+  }
+
+  .second-line {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom: 1px solid #999;
+  }
+
+  .third-line {
+    display: block;
+  }
+}
