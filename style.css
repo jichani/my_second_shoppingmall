@@ -1,5 +1,16 @@
+/* 초기화 코드 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
+}
+
+li {
+  list-style: none;
 }
 
 .btn-outline-success {
@@ -14,13 +25,14 @@ a {
   border-color: black;
 }
 
+
 .form-control:focus {
   border-color: black;
   box-shadow: none;
 }
 
 .nav_var {
-  padding: 0px;
+  padding: 0;
 }
 
 .nav_logo {
@@ -36,6 +48,20 @@ a {
   font-weight: 700;
   line-height: 4.5rem;
   margin-left: 20px;
+}
+
+.nav-login {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 24px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+  background-color: black;
 }
 
 .btn {
@@ -207,5 +233,11 @@ footer {
 
   .third-line {
     display: block;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-collapse form {
+    margin-bottom: 24px;
   }
 }
