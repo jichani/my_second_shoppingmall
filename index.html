@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="kr">
 
 <head>
   <meta charset="utf-8">
@@ -12,13 +12,12 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <!-- 나의 스타일시트 -->
   <link href="style.css" rel="stylesheet" type="text/css" />
-
 </head>
 
 <body>
   <header>
     <!-- 헤더의 배너 -->
-    <a href="/UMBRO/cs" class="banner">
+    <a href="#" class="banner">
       <div class="layout-header-var-img">
         <img
           src="https://images.descentekorea.co.kr/contents/disp/Builder/Unit/20220421/211215_PC_main_top_UMB_20220421103321.jpg"
@@ -27,38 +26,50 @@
     </a>
 
     <!-- 헤더의 메뉴 -->
-    <nav class="navbar navbar-expand-lg bg-light nav_var">
-      <div class="container-fluid nav_logo">
-        <a class="navbar-brand active nav_logo ps-2" href="#"><img src="./img/logo1.png" height="52px" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active nav_text" aria-current="page" href="#">SHOP</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active nav_text" href="#">NEW</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active nav_text" href="#">BEST</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active nav_text" href="#">FOOTBALL</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active nav_text" href="#">BRAND</a>
-            </li>
-          </ul>
-          <form class="d-flex ms-3" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <a href="#"><img src="./img/logo1.png" height="52px" /></a>
       </div>
+
+      <ul class="navbar__menu">
+        <li>
+          <a href="#">SHOP</a>
+        </li>
+        <li>
+          <a href="#">NEW</a>
+        </li>
+        <li>
+          <a href="#">BEST</a>
+        </li>
+        <li>
+          <a href="#">FOOTBALL</a>
+        </li>
+        <li>
+          <a href="#">BRAND</a>
+        </li>
+        <li>
+          <a href="#">런칭캘린더</a>
+        </li>
+      </ul>
+
+      <ul class="navbar__icons">
+        <li><a href="./LoginPage/index.html"><i class="fa-solid fa-user"></i></a></li>
+        <li><a class="navbar__search__Btn"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+      </ul>
+
+      <a class="navbar__toggleBtn">
+        <i class="fas fa-bars active"></i>
+        <i class="fa-solid fa-x"></i>
+      </a>
     </nav>
+
+    <!-- 검색 창 -->
+    <div class="search">
+      <input type="text" />
+      <a href="#" class="search__Btn">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </a>
+    </div>
   </header>
 
   <!-- 메인에 첫번째 섹션인 캐러셀 -->
@@ -432,9 +443,13 @@
     </div>
   </footer>
 
+  <!-- 폰트어썸 자바스크립트 -->
+  <script src="https://kit.fontawesome.com/b26ca2beab.js" crossorigin="anonymous"></script>
+  <!-- 부트스트랩 자바스크립트 -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
+  <!-- 나의 자바스크립트 -->
   <script src="./main.js"></script>
 </body>
 
