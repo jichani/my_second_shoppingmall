@@ -322,7 +322,7 @@ header.slider nav.navbar li {
 
 - 로그인 페이지에서 input에 focus와 valid한 상태에서 텍스트가 위로 올라가는 애니메이션 구현<br>
 
-![로그인 페이지](https://github.com/jichani/my_second_shoppingmall/assets/123962013/556d8d0f-0ccd-4a19-a6e5-a05243331a59)
+![로그인 페이지 비교](https://github.com/jichani/my_second_shoppingmall/assets/123962013/46102692-3788-4693-95e9-d90ce69b1e5d)
 
 ```css
 .inputbox label {
