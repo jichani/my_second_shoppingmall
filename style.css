@@ -61,7 +61,7 @@ header>.banner>div {
   max-height: 40px;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 843px) {
   header>.banner {
     display: none;
   }
@@ -454,7 +454,7 @@ footer {
 }
 
 /* 미디어 쿼리 */
-@media screen and (max-width:48rem) {
+@media screen and (max-width:843px) {
   .first-line {
     text-align: center;
   }
