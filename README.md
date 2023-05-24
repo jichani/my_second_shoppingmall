@@ -1,21 +1,35 @@
 # UMBRO 쇼핑몰 웹사이트
 
-반응형 웹사이트를 만들기 위한 영진직업전문학교 미니 프로젝트
+반응형 웹사이트를 만들기 위한 영진직업전문학교 2번째 미니 프로젝트
+
+<br>
 
 - 클론 코딩 사이트 : https://shop.descentekorea.co.kr/UMBRO
 
-> _(메인 페이지)_ > ![반응형 웹페이지1](https://github.com/jichani/my_second_shoppingmall/assets/123962013/a4480636-e1fb-4a79-9ecc-b365ab26598a) > _(로그인 페이지)_ > ![로그인 페이지](https://github.com/jichani/my_second_shoppingmall/assets/123962013/e30b247f-96e2-4278-a96f-74b45feb99d7)
+<br>
+
+_(메인 페이지)_ > ![반응형 웹페이지1](https://github.com/jichani/my_second_shoppingmall/assets/123962013/a4480636-e1fb-4a79-9ecc-b365ab26598a) > _(로그인 페이지)_ > ![로그인 페이지](https://github.com/jichani/my_second_shoppingmall/assets/123962013/e30b247f-96e2-4278-a96f-74b45feb99d7)
+
+ <br>
 
 - Demo\_메인 : https://jichani.github.io/my_second_shoppingmall/
 - Demo\_로그인: https://jichani.github.io/my_second_shoppingmall/LoginPage/index.html
 
-### 개발 목표
+<br>
 
-> 부트스트랩의 다양한 컴포넌트와 클래스 사용 및 부트스트랩 Grid 이해.
-> 미디어쿼리를 이용한 반응형 웹페이지 구축.
-> 자바스크립트 이용한 반응 구현.
+## 개발 목표
 
-### 사용 기술
+<br>
+
+부트스트랩의 다양한 컴포넌트와 클래스 사용 및 부트스트랩 Grid 이해.
+
+미디어쿼리를 이용한 반응형 웹페이지 구축.
+
+자바스크립트 이용한 반응 구현.
+
+ <br>
+
+## 사용 기술
 
 - HTML
 - CSS
@@ -23,9 +37,17 @@
 - Bootstrap
 - Media Query
 
-### Advanced Feature
+<br>
 
-> - 미디어 쿼리를 이용한 footer 개발 <br> > _(web 버전)_ > ![pc버전_footer](https://user-images.githubusercontent.com/123962013/236789283-805b1dc6-9db8-401b-853c-ca8b7363ec2c.png) > _(모바일 버전)_ <br> >![모바일버전_footer](https://user-images.githubusercontent.com/123962013/236789293-e546bffd-57f6-412e-8eaa-d5f91e819919.png)
+## Advanced Feature
+
+<br>
+
+- 미디어 쿼리를 이용한 footer 개발
+
+  <br>
+   
+  _(web 버전)_  ![pc버전_footer](https://user-images.githubusercontent.com/123962013/236789283-805b1dc6-9db8-401b-853c-ca8b7363ec2c.png)  _(모바일 버전)_ <br> ![모바일버전_footer](https://user-images.githubusercontent.com/123962013/236789293-e546bffd-57f6-412e-8eaa-d5f91e819919.png)
 
 ```css
 @media screen and (max-width: 48rem) {
@@ -43,7 +65,12 @@
 }
 ```
 
-> - 부트스트랩 Grid를 이용한 반응형 레이아웃 구축<br> > _(web 버전)_ > ![그리드_웹](https://user-images.githubusercontent.com/123962013/236790116-fc336d03-d9bc-4bb6-bf6a-be8afc44ec9e.png) > _(모바일 버전)_ <br> >![그리드_모바일](https://user-images.githubusercontent.com/123962013/236790132-3da4aa7e-a724-402f-861f-27537481c0a3.png)
+- 부트스트랩 Grid를 이용한 반응형 레이아웃 구축
+  <br>
+
+  _(web 버전)_ ![그리드_웹](https://user-images.githubusercontent.com/123962013/236790116-fc336d03-d9bc-4bb6-bf6a-be8afc44ec9e.png) _(모바일 버전)_ <br> ![그리드_모바일](https://user-images.githubusercontent.com/123962013/236790132-3da4aa7e-a724-402f-861f-27537481c0a3.png)
+
+<br>
 
 ```html
 <div class="container">
@@ -100,19 +127,51 @@
 </div>
 ```
 
-- after 이용하여 nav menu를 hover시 underline이 왼쪽에서부터 오른쪽으로 생기는 애니메이션 연출<br>
+<br>
+
+- after 이용하여 nav menu를 hover시 underline이 왼쪽에서부터 오른쪽으로 생기는 애니메이션 연출
+
+<br>
 
 > ![호버](https://github.com/jichani/my_second_shoppingmall/assets/123962013/f22632a6-f712-4835-9f8d-e0e183ba3f6a)
 > ->
 > ![호버2](https://github.com/jichani/my_second_shoppingmall/assets/123962013/d941e1c0-88c3-42b6-9b9c-bae05fec246c)
 
+<br>
+
+```html
+<ul class="navbar__menu">
+  <li>
+    <a href="#">SHOP</a>
+  </li>
+  <li>
+    <a href="#">NEW</a>
+  </li>
+  <li>
+    <a href="#">BEST</a>
+  </li>
+  <li>
+    <a href="#">FOOTBALL</a>
+  </li>
+  <li>
+    <a href="#">BRAND</a>
+  </li>
+  <li>
+    <a href="#">런칭캘린더</a>
+  </li>
+</ul>
+
+<ul class="navbar__icons">
+  <li>
+    <a href="./LoginPage/index.html"><i class="fa-solid fa-user"></i></a>
+  </li>
+  <li>
+    <a class="navbar__search__Btn"><i class="fa-solid fa-magnifying-glass"></i></a>
+  </li>
+</ul>
+```
+
 ```css
-.navbar__menu li a {
-  color: #000;
-  display: inline-block;
-  margin: 0;
-  text-transform: uppercase;
-}
 li a:hover:after {
   transform: scaleX(1);
 }
@@ -128,9 +187,29 @@ li a:after {
 }
 ```
 
-- toggle 버튼 구현 및 active 상태에서 x 로 변경되게 구현<br>
+<br>
+
+- toggle 버튼 구현 및 active 상태에서 x 로 변경되게 구현
+
+<br>
 
 > ![토글 버튼 구현](https://github.com/jichani/my_second_shoppingmall/assets/123962013/e6ae2de0-9210-4850-bee8-22e70567fe41)
+
+```html
+<ul class="navbar__icons">
+  <li>
+    <a href="./LoginPage/index.html"><i class="fa-solid fa-user"></i></a>
+  </li>
+  <li>
+    <a class="navbar__search__Btn"><i class="fa-solid fa-magnifying-glass"></i></a>
+  </li>
+</ul>
+
+<a class="navbar__toggleBtn">
+  <i class="fas fa-bars active"></i>
+  <i class="fa-solid fa-x"></i>
+</a>
+```
 
 ```javascript
 const toggleBtn = document.querySelector(".navbar__toggleBtn");
@@ -210,9 +289,22 @@ toggleBtn.addEventListener("click", () => {
 }
 ```
 
-- Search 버튼 누르면 숨겨진 인풋 박스와 버튼이 나타나게 구현<br>
+<br>
+
+- Search 버튼 누르면 숨겨진 인풋 박스와 버튼이 나타나게 구현
+
+<br>
 
 > ![서치버튼](https://github.com/jichani/my_second_shoppingmall/assets/123962013/6e6d558e-6d17-4cbf-b81e-5083b563b3b1)
+
+```html
+<div class="search">
+  <input type="text" />
+  <a href="#" class="search__Btn">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </a>
+</div>
+```
 
 ```javascript
 const searchBtn = document.querySelector(".navbar__search__Btn");
@@ -274,7 +366,11 @@ header .search input {
 }
 ```
 
-- slide 내릴 시 header가 상단에 고정되게 구현<br>
+<br>
+
+- slide 내릴 시 header가 상단에 고정되게 구현
+
+<br>
 
 > ![헤더 상단 고정](https://github.com/jichani/my_second_shoppingmall/assets/123962013/6e504c4d-3f11-470d-93fb-64e72e56d1e1)
 
@@ -320,9 +416,26 @@ header.slider nav.navbar li {
 }
 ```
 
-- 로그인 페이지에서 input에 focus와 valid한 상태에서 텍스트가 위로 올라가는 애니메이션 구현<br>
+<br>
+
+- 로그인 페이지에서 input에 focus와 valid한 상태에서 텍스트가 위로 올라가는 애니메이션 구현
+
+<br>
 
 ![로그인 페이지 비교](https://github.com/jichani/my_second_shoppingmall/assets/123962013/46102692-3788-4693-95e9-d90ce69b1e5d)
+
+```html
+<div class="inputbox">
+  <ion-icon name="mail-outline"></ion-icon>
+  <input type="email" required />
+  <label for="">Email</label>
+</div>
+<div class="inputbox">
+  <ion-icon name="lock-closed-outline"></ion-icon>
+  <input type="password" required />
+  <label for="">password</label>
+</div>
+```
 
 ```css
 .inputbox label {
@@ -342,12 +455,14 @@ input:valid ~ label {
 }
 ```
 
-### 개선사항
+## 개선사항
 
-- search 버튼을 누른 상태로 화면을 줄일 시 toggle이 나타났는데도 search 버튼이 숨겨지지 않는 문제가 있음
+- search 버튼을 누른 상태로 화면을 줄일 시 toggle이 나타났는데도 search 버튼이 숨겨지지 않는 문제가 있음.
 - 사이즈를 조정시 푸터의 글자가 깨짐.
 
-### 참고 사이트
+<br>
+
+## 참고 사이트
 
 - 코딩 알려주는 누나 3번째 프로젝트
 - Animated Login Form Using HTML & CSS : https://youtu.be/1H-vSHVOxoU
