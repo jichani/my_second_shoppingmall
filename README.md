@@ -2,10 +2,9 @@
 
 반응형 웹사이트를 만들기 위한 영진직업전문학교 미니 프로젝트
 
-> _(메인 페이지)_
-> ![반응형 웹페이지1](https://github.com/jichani/my_second_shoppingmall/assets/123962013/a4480636-e1fb-4a79-9ecc-b365ab26598a)
-> _(로그인 페이지)_
-> ![로그인 페이지](https://github.com/jichani/my_second_shoppingmall/assets/123962013/e30b247f-96e2-4278-a96f-74b45feb99d7)
+- 클론 코딩 사이트 : https://shop.descentekorea.co.kr/UMBRO
+
+> _(메인 페이지)_ > ![반응형 웹페이지1](https://github.com/jichani/my_second_shoppingmall/assets/123962013/a4480636-e1fb-4a79-9ecc-b365ab26598a) > _(로그인 페이지)_ > ![로그인 페이지](https://github.com/jichani/my_second_shoppingmall/assets/123962013/e30b247f-96e2-4278-a96f-74b45feb99d7)
 
 - Demo: https://jichani.github.io/my_second_shoppingmall/
 
@@ -25,10 +24,7 @@
 
 ### Advanced Feature
 
-> - 미디어 쿼리를 이용한 footer 개발 <br>
->   _(web 버전)_
->   ![pc버전_footer](https://user-images.githubusercontent.com/123962013/236789283-805b1dc6-9db8-401b-853c-ca8b7363ec2c.png)
->   _(모바일 버전)_ <br> >![모바일버전_footer](https://user-images.githubusercontent.com/123962013/236789293-e546bffd-57f6-412e-8eaa-d5f91e819919.png)
+> - 미디어 쿼리를 이용한 footer 개발 <br> > _(web 버전)_ > ![pc버전_footer](https://user-images.githubusercontent.com/123962013/236789283-805b1dc6-9db8-401b-853c-ca8b7363ec2c.png) > _(모바일 버전)_ <br> >![모바일버전_footer](https://user-images.githubusercontent.com/123962013/236789293-e546bffd-57f6-412e-8eaa-d5f91e819919.png)
 
 ```css
 @media screen and (max-width: 48rem) {
@@ -46,10 +42,7 @@
 }
 ```
 
-> - 부트스트랩 Grid를 이용한 반응형 레이아웃 구축<br>
->   _(web 버전)_
->   ![그리드_웹](https://user-images.githubusercontent.com/123962013/236790116-fc336d03-d9bc-4bb6-bf6a-be8afc44ec9e.png)
->   _(모바일 버전)_ <br> >![그리드_모바일](https://user-images.githubusercontent.com/123962013/236790132-3da4aa7e-a724-402f-861f-27537481c0a3.png)
+> - 부트스트랩 Grid를 이용한 반응형 레이아웃 구축<br> > _(web 버전)_ > ![그리드_웹](https://user-images.githubusercontent.com/123962013/236790116-fc336d03-d9bc-4bb6-bf6a-be8afc44ec9e.png) > _(모바일 버전)_ <br> >![그리드_모바일](https://user-images.githubusercontent.com/123962013/236790132-3da4aa7e-a724-402f-861f-27537481c0a3.png)
 
 ```html
 <div class="container">
