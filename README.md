@@ -320,9 +320,32 @@ header.slider nav.navbar li {
 }
 ```
 
+- 로그인 페이지에서 input에 focus와 valid한 상태에서 텍스트가 위로 올라가는 애니메이션 구현<br>
+
+![로그인 페이지](https://github.com/jichani/my_second_shoppingmall/assets/123962013/556d8d0f-0ccd-4a19-a6e5-a05243331a59)
+
+```css
+.inputbox label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1em;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  top: -5px;
+}
+```
+
 ### 개선사항
 
-- 아직..
+- search 버튼을 누른 상태로 화면을 줄일 시 toggle이 나타났는데도 search 버튼이 숨겨지지 않는 문제가 있음
+- 사이즈를 조정시 푸터의 글자가 깨짐.
 
 ### 참고 사이트
 
