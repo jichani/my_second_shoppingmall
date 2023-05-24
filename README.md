@@ -6,7 +6,8 @@
 
 > _(메인 페이지)_ > ![반응형 웹페이지1](https://github.com/jichani/my_second_shoppingmall/assets/123962013/a4480636-e1fb-4a79-9ecc-b365ab26598a) > _(로그인 페이지)_ > ![로그인 페이지](https://github.com/jichani/my_second_shoppingmall/assets/123962013/e30b247f-96e2-4278-a96f-74b45feb99d7)
 
-- Demo: https://jichani.github.io/my_second_shoppingmall/
+- Demo\_메인 : https://jichani.github.io/my_second_shoppingmall/
+- Demo\_로그인: https://jichani.github.io/my_second_shoppingmall/LoginPage/index.html
 
 ### 개발 목표
 
